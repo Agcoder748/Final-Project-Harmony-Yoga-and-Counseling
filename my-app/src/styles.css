@@ -1,0 +1,100 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.img1 {
+  background-image: url(https://www.cibdol.com/modules/psblog/uploads/1698911680.jpg);
+  background-size: 100% 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+.Text1 {
+  background-color: rgba(218, 210, 210, 0.8);
+  padding: 2%;
+}
+.Text {
+  color: #000;
+}
+/* Hero Section */
+.img1 {
+  background-image: url("https://spa-accor.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2F6np2whvu93rb%2F2wh3yVZ1hoatmokwJ1EwFt%2Fb7323889951513337a4e6163b5d73cc4%2FGettyImages-1401067175.jpg?ixlib=js-3.8.0&ar=16%3A9&auto=format&crop=edges&dpr=2&fit=crop&w=800&s=699b3510bb21e62e63edfbe9923e194f");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.text {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* About Yoga Section */
+.about-section {
+  padding: 40px 60px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.highlight-title {
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #f5a623;
+  font-weight: 500;
+}
+
+/* Image Gallery */
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 60px;
+}
+
+.gallery img {
+  width: 30%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.faq-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.faq-container h1 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #2c3e50;
+}
+
+.faq-item {
+  margin-bottom: 5%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2980b9;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
